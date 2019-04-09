@@ -1,0 +1,18 @@
+---
+title: "one"
+author: "zakaria abrabri"
+date: "April 9, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+```
+
+```{r cars}
+Map <- leaflet() %>%
+  addTiles() %>%   
+  addMarkers(lng=101.712045, lat=3.157486, popup="Petronas Twin Towers is world's tallest twin structures, the 88-storey buildings :)")
+Map
+```
+
